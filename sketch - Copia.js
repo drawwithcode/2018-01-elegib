@@ -15,12 +15,12 @@ background(100);
 rectMode(CORNER);
 
 
-
+//signal
 noFill();
 if(mouseX>60){
 stroke(80)
 ellipse(250,150, mouseX-60);}
-stroke(90);
+stroke(95);
 if(mouseX>120) {
 ellipse(250,150, mouseX-120);}
 stroke(65);
@@ -44,9 +44,6 @@ rect(235, 300, 30, 25);
 rectMode(CENTER);
 rect(230, 465, 18, 120);
 rect(270, 465, 18, 120);
-
-//feet
-fill(146, 28, 52);
 rect(270,535, 35, 30, 60, 60, 1,1);
 rect(230,535, 35, 30, 60, 60, 1,1);
 fill(100);
@@ -55,15 +52,14 @@ fill(100);
 //Arms
 rectMode(CORNER);
 fill(132, 26, 80);
-arc(192.5, 445, 12, 55, 3*PI/4 , PI/4, PIE)
-arc(307.5, 445, 12, 55, 3*PI/4 , PI/4, PIE)
+arc(192.5, 445, 10, 55, 3*PI/4 , PI/4, PIE)
+arc(307.5, 445, 10, 55, 3*PI/4 , PI/4, PIE)
 fill(159, 33, 35);
 rect(185, 340, 15, 85);
 rect(300, 340, 15, 85);
 fill(159, 33, 15);
 ellipse(200, 340, 30, 30);
 ellipse(300, 340, 30, 30);
-
 
 
 //body
@@ -91,12 +87,8 @@ colorMode(HSB);
 stroke(159, 33, 35);
 fill(159, 33, 15);
 triangle(240, 220, 260, 220, 250,150);
-fill(360, 100, 60);
+fill(132, 26, 80);
 ellipse(250,150, 10);
-fill(360, 100, 60, 0.4)
-noStroke();
-ellipse(250,150, 20);
-stroke(25);
 fill(146, 28, 52);
 rectMode(CENTER);
 rect(250, 240, 80, 90, 90, 90, 5,5);
@@ -106,10 +98,10 @@ rect(250, 240, 80, 90, 90, 90, 5,5);
 stroke(25);
 strokeWeight(3);
 fill(132, 26, 80);
-arc(250, 270, 30, 20, PI, 0, CHORD)
-line( 250,260,250,269);
-line( 243,262	,243,269);
-line( 257,261	,257,269);
+arc(250, 265, 30, 20, PI, 0, CHORD)
+line( 250,255,250,264);
+line( 243,256	,243,264);
+line( 257,256	,257,264);
 
 
 //eyes
